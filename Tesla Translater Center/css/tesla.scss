@@ -1,0 +1,33 @@
+$maincolor:#8D778D;
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+::selection {  //yazni isare edendeki reng
+    background-color: blue;
+    color: white;
+}
+
+// header{
+
+//     position: sticky;
+//     padding-top:20px;
+   
+//     background-image: linear-gradient(to right, #766DFF, #88F1FF);
+// }
+a{
+    color:red;
+}

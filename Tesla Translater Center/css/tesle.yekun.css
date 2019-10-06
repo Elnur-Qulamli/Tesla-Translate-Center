@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  object-fit: cover;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Merriweather", serif;
+}
+
+header {
+  border: 1px solid #000;
+  background-color: #000;
+  height: 60px;
+  position: sticky; 
+  z-index:1;
+  top: 0;
+}
+
+.logo a{
+  font-family: 'Roboto' ,sans-serif;
+  margin-top:20px;
+  margin-left:80px;
+ font-size: 30px; 
+ color:gold;
+ font-weight: bold;
+}
+.logo a:hover{
+  text-decoration: none;
+  color:#fff;
+}
+
+ @media only screen and (max-width: 992px) {
+ .navigator ul li a{
+    display:none;
+  }
+} 
+
+@media only screen and (min-width: 992px) {
+  .navigator ul li span{
+     display:none;
+   }
+ } 
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: gold;
+  display: block;
+  transition: 0.3s;
+  font-size:20px;  
+  padding-left:0px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navigator{
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+}
+.navigator ul li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+ 
+.navigator ul li a{
+  text-decoration: none;
+  color:gold;
+}
+
+.navigator ul li a:hover{
+  color:#fff;
+}
+
+#single_photo{
+  text-align: center;
+  background-color: #000;
+}
+
+#single_photo img{
+  width: 45%;
+}
+
+.picture_area img {
+  width: 100%;
+  height: 550px;
+  margin: auto;
+}
+
+.about_area{
+    display: block;
+    padding-top: 60px;
+}
+.about_area h3{
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.write_area h4,.mini_services h3{
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.project_picture_top{
+  display: block;
+  padding-top:30px;
+}
+
+#mini_services{
+  padding-top: 60px;
+}
+
+#location{
+  padding-top: 60px;
+  background-color: #000;
+}
+
+
+
+
+
+.first_picture img,.second_picture img,.third_picture img{
+width: 100%;
+height: 300px;
+}
+
+.project_picture_top div,.project_picture_bottom div{
+  justify-content: space-between;
+  }
+
+  .project_picture_top div{
+    margin:auto;
+  }
+/* .picture_area,.write_area{
+  margin-left:70px;
+  margin-right:70px;
+} */
+ .center{
+text-align:center;
+color:gold;
+ }
+.mini_title,.about_area,.mini_services,.project_picture_top{
+  background-color: #000;
+}
+
+
+  .map>iframe{
+    width: 100%;
+    height: 400px;
+  }
+
+
+  /*footer hisse burdan baslayaraq isleyir*/
+
+  
+  .address li,.sosial{
+    list-style-type: none;
+  }
+  .sosial li{
+    display: inline;
+    padding-right: 10px;
+  }
+
+  .sosial li a{
+    font-size: 20px;
+    color: gold;
+  }
+
+  .sosial li a:hover{
+    color: #fff;
+  }
+.map,footer{
+  background-color: #000;
+} 
+.map{
+  padding-top:40px;
+}
+
+.contact{
+  background-color: #000;
+}
+.contact h3{
+  text-align: center;
+  color:gold;
+}
+.contact div{
+  text-align: center;
+}
+
+footer{
+  text-align:center;
+}
+ 
+
+.first_picture img,.second_picture img,.third_picture img{
+  border-radius:100px;
+}

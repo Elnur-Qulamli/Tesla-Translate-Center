@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+::-moz-selection {
+  background-color: blue;
+  color: white;
+}
+
+::selection {
+  background-color: blue;
+  color: white;
+}
+
+.logo h1 {
+  color: red;
+}
+/*# sourceMappingURL=tesla.css.map */
